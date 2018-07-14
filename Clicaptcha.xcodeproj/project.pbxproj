@@ -12,6 +12,8 @@
 		3480F1FA20DBA9D100984513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3480F1F820DBA9D100984513 /* Main.storyboard */; };
 		3480F1FC20DBA9D300984513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3480F1FB20DBA9D300984513 /* Assets.xcassets */; };
 		3480F1FF20DBA9D300984513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3480F1FD20DBA9D300984513 /* LaunchScreen.storyboard */; };
+		3480F20720DBAA8F00984513 /* ClicaptchaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F20620DBAA8F00984513 /* ClicaptchaView.swift */; };
+		3480F20920DBAD1B00984513 /* 屏幕快照 2018-06-21 下午5.53.01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3480F20820DBAD1B00984513 /* 屏幕快照 2018-06-21 下午5.53.01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3480F1FB20DBA9D300984513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3480F1FE20DBA9D300984513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3480F20020DBA9D300984513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3480F20620DBAA8F00984513 /* ClicaptchaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClicaptchaView.swift; sourceTree = "<group>"; };
+		3480F20820DBAD1B00984513 /* 屏幕快照 2018-06-21 下午5.53.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2018-06-21 下午5.53.01.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 			children = (
 				3480F1F420DBA9D100984513 /* AppDelegate.swift */,
 				3480F1F620DBA9D100984513 /* ViewController.swift */,
+				3480F20620DBAA8F00984513 /* ClicaptchaView.swift */,
 				3480F1F820DBA9D100984513 /* Main.storyboard */,
 				3480F1FB20DBA9D300984513 /* Assets.xcassets */,
 				3480F1FD20DBA9D300984513 /* LaunchScreen.storyboard */,
+				3480F20820DBAD1B00984513 /* 屏幕快照 2018-06-21 下午5.53.01.png */,
 				3480F20020DBA9D300984513 /* Info.plist */,
 			);
 			path = Clicaptcha;
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3480F1FF20DBA9D300984513 /* LaunchScreen.storyboard in Resources */,
+				3480F20920DBAD1B00984513 /* 屏幕快照 2018-06-21 下午5.53.01.png in Resources */,
 				3480F1FC20DBA9D300984513 /* Assets.xcassets in Resources */,
 				3480F1FA20DBA9D100984513 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3480F20720DBAA8F00984513 /* ClicaptchaView.swift in Sources */,
 				3480F1F720DBA9D100984513 /* ViewController.swift in Sources */,
 				3480F1F520DBA9D100984513 /* AppDelegate.swift in Sources */,
 			);
